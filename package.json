@@ -1,0 +1,26 @@
+{
+  "name": "lerna-monorepo-tutorial1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"lerna run start",
+    "test": "lerna run test",
+    "new-version":"lerna version --conventional-commits --yes",
+    "diff":"lerna diff"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patjanawat/lerna-monorepo-tutorial1.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patjanawat/lerna-monorepo-tutorial1/issues"
+  },
+  "homepage": "https://github.com/patjanawat/lerna-monorepo-tutorial1#readme",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
